@@ -4,12 +4,3 @@
 @tailwind components;
 /* utility classes generated based on our tailwind.config.js */
 @tailwind utilities;
-
-.app-logo {
-  position: absolute;
-  height: 50px;
-  left: 10px;
-  pointer-events: none;
-  background: transparent;
-  padding-bottom: 7px;
-}

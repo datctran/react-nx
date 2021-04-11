@@ -29809,6 +29809,15 @@ video {
   --tw-backdrop-sepia: sepia(100%);
 }
 
+.app-logo {
+  position: absolute;
+  height: 50px;
+  left: 10px;
+  pointer-events: none;
+  background: transparent;
+  padding-bottom: 7px;
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;
