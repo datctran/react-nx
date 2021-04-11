@@ -1,30 +1,28 @@
 {
   "implicitDependencies": {
-    "package.json": {
-      "dependencies": "*",
-      "devDependencies": "*"
-    },
+    "package.json": { "dependencies": "*", "devDependencies": "*" },
     ".eslintrc.json": "*"
   },
-  "affected": {
-    "defaultBase": "master"
-  },
+  "affected": { "defaultBase": "master" },
   "npmScope": "enterprise-react",
   "tasksRunnerOptions": {
     "default": {
-      "runner": "@nrwl/workspace/tasks-runners/default",
+      "runner": "@nrwl/nx-cloud",
       "options": {
-        "cacheableOperations": ["build", "lint", "test", "e2e"]
+        "cacheableOperations": ["build", "lint", "test", "e2e"],
+        "accessToken": "N2JkY2U2NDYtMWE3MS00NGM4LTg5MmYtYTVmMmE3NzQ4ZmUyfHJlYWQtd3JpdGU=",
+        "canTrackAnalytics": false,
+        "showUsageWarnings": true
       }
     }
   },
   "projects": {
-    "warranty-sale": {
-      "tags": []
-    },
+    "warranty-sale": { "tags": [] },
     "warranty-sale-e2e": {
       "tags": [],
       "implicitDependencies": ["warranty-sale"]
-    }
+    },
+    "ui": { "tags": [] },
+    "data": { "tags": [] }
   }
 }

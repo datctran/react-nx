@@ -1,0 +1,5 @@
+{
+    "html.format.indentInnerHtml": true,
+    "html.format.wrapAttributes": "force",
+    "html.format.wrapAttributesIndentSize": 2
+}
